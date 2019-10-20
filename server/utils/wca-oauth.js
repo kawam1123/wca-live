@@ -1,3 +1,7 @@
+if(typeof URLSearchParams === 'undefined'){
+  URLSearchParams = require('url').URLSearchParams;
+}
+
 const fetch = require('node-fetch');
 const {
   WCA_OAUTH_CLIENT_ID,
